@@ -14,7 +14,7 @@ data2 = pd.read_csv('23년 전체 타자.csv')
 data3 = pd.read_csv('24년 롯데 타자.csv')
 
 # 각 데이터 집합에서 필요한 열만 선택하여 평균값 계산하기
-data1_means = data1[categories].mean()
+data1_means = data1[categories].mean() 
 data2_means = data2[categories].mean()
 data3_means = data3[categories].mean()
 
